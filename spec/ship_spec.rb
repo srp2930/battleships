@@ -6,8 +6,8 @@ describe Ship do
 
   context 'initialization of ship object' do
 
-    it 'should be able to instantiate a ship object' do
-      expect(ship).to be_an_instance_of(Ship)
+    it 'should have a default length of 1' do
+      expect(ship.length).to be 1
     end
 
     it 'should allow use to specify ship size at start' do
